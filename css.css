@@ -1,9 +1,17 @@
 @charset "UTF-8";
-body {
-  display: flex;
+body { 
+	display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#0099DD;
+  background-color:#000000;
+}
+.content{
+	position: absolute;
+	top: 24px;
+    left:24px;
+	right:24px;
+	max-width: 768px;
+	background-color: #0099DD;
 }
 video {
   width: 100%;
@@ -18,5 +26,24 @@ video {
   position: absolute;
 	top: 24px;
     left:24px;
+	z-index: 10;
+}
+.bottom {
+  display: inline-block;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	border-style:solid;
+	border-color: white;
+	border-width: 1px;
+	position: absolute;
+	bottom: 24px;
+    width: 400px;
+	height: 48px;
+	border-radius: 8px;
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
 	z-index: 10;
 }
