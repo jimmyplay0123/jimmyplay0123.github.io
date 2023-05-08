@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#0099DD;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.videowrap {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0099DD;
+}
+.title {
+  position: absolute;
+	top: 24px;
+    left:24px;
+	z-index: 10;
+}
